@@ -1,4 +1,4 @@
 # MazeGenerator
 Random Maze Generator in Python
 # Requirements:
-Colorama: `pip install colorama`
+`pip install -r requirements.txt`
