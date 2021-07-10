@@ -31,10 +31,9 @@ def surroundingCells(rand_wall):
 wall = '#'
 cell = 'c'
 unvisited = 'u'
-height = input("Height: ")
-height = int(height)
-width = input("Width: ")
-width = int(width)
+height = int(input("Height: "))
+width = int(input("Width: "))
+print("Loading...")
 maze = []
 
 init()
