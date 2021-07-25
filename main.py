@@ -6,11 +6,11 @@ def printMaze(maze):
 	for i in range(0, height):
 		for j in range(0, width):
 			if (maze[i][j] == 'u'):
-				print(Fore.WHITE + str(maze[i][j]), end=" ")
+				print(Fore.WHITE + str(maze[i][j]), end="")
 			elif (maze[i][j] == 'c'):
-				print(Fore.GREEN + str(maze[i][j]), end=" ")
+				print(Fore.GREEN + str(maze[i][j]), end="")
 			else:
-				print(Fore.RED + str(maze[i][j]), end=" ")
+				print(Fore.RED + str(maze[i][j]), end="")
 			
 		print('\n')
 
