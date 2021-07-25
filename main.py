@@ -1,6 +1,5 @@
 import random
-from colorama import init
-from colorama import Fore
+from colorama import Fore, init
 
 def printMaze(maze):
 	for i in range(0, height):
